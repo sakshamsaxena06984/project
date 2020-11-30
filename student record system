@@ -41,7 +41,7 @@ while(1)
 {
     printHead();
     printf("\n\t");
-    printf("\n\n\t\t\t1. ADD Student");
+    printf("\n\n\t\t\t1. ADD         Student");
     printf("\n\n\t\t\t2. DELETE Student");
     printf("\n\n\t\t\t3. MODIFY Student");
     printf("\n\n\t\t\t4. DISPLAY Student LIST");
@@ -323,5 +323,10 @@ else printf("\n\n\t\t!!!! ERROR RECORD NOT FOUND !!!!");
 printf("\n\n\t\tWant to enter another search (Y/N)");
 fflush(stdin);
 another=getchar();
+
+
+
+
+
 }
 }
